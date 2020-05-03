@@ -1,0 +1,36 @@
+.header
+{ 
+    background-color: $white;
+    align-items: center;
+    border-top : 1px solid $line;
+    border-bottom : 1px solid $line;
+      display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+z-index: 1;
+&--account
+{
+    margin: -0.8rem -22rem;
+    position: static;
+    border-bottom: none;;
+    border-top:3px solid $primary;
+
+
+}
+    &__logo
+    {
+       
+    }
+    .search-icon
+    {
+        margin:0 4rem;
+        font-size: 1.2rem;;
+        cursor: pointer;
+        &:hover
+        {
+            transition: all 0.5s;
+            color: $primary;
+        }
+    }
+}
